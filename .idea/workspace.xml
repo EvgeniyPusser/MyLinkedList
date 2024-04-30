@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a23d6930-0bfb-4325-9eb9-68078ba07947" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyLinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myLinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myLinkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myLinkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myLinkedList/Run.java" afterDir="false" />
+    <list default="true" id="a23d6930-0bfb-4325-9eb9-68078ba07947" name="Changes" comment="LinkedList ok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myLinkedList/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myLinkedList/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myLinkedList/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/myLinkedList/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "EvgeniyPusser"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/EvgeniyPusser/MyLinkedList.git",
+    "accountId": "5728e25b-1ee7-4213-9b9a-4f9149e16c39"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 0
 }]]></component>
@@ -80,14 +85,27 @@
       <option name="presentableId" value="Default" />
       <updated>1714335485536</updated>
     </task>
+    <task id="LOCAL-00001" summary="LinkedList ok">
+      <option name="closed" value="true" />
+      <created>1714423895773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714423895773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LinkedList ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList ok" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/myLinkedList/Run.java</url>
-          <line>14</line>
+          <line>26</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

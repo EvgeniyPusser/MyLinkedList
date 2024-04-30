@@ -5,12 +5,10 @@ public class MyLinkedList <E> implements LinkedList<E>{
     Node<E> tail;
     int size;
 
-    public MyLinkedList() {
-    }
 
-    public MyLinkedList(Node<E> head, Node<E> tail, int size) {
-        this.head = head;
-        this.tail = tail;
+    public MyLinkedList() {
+        this.head = null;
+        this.tail = null;
         this.size = 0;
     }
 
@@ -52,8 +50,11 @@ public class MyLinkedList <E> implements LinkedList<E>{
 
         if(index == 0){
             insertAtStart(data);
-        }
-        else {
+        } else if (index == size - 1) {
+            tail.next = node;
+            tail = node;
+
+        } else {
             Node<E> n = head;
             for (int i = 0; i < index - 1; i++) {
                 n = n.next;
@@ -61,8 +62,8 @@ public class MyLinkedList <E> implements LinkedList<E>{
             node.next = n.next;
             //n = node.prev;
             n.next = node;
-            size++;
-        }
+
+        } size++;
 
     }
 
@@ -81,6 +82,10 @@ public class MyLinkedList <E> implements LinkedList<E>{
     @Override
     public void deleteAt(int index) {
           if(index == 0) head = head.next;
+          else if (index == size - 1) {
+              tail = null;
+              size--;
+              }
         Node<E> n = head;
         Node<E> n1 = null;
         for (int i = 0; i < index-1; i++)

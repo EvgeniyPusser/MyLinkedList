@@ -4,7 +4,19 @@ public class Run {
     public static void main(String[] args) {
      MyLinkedList<Integer> list = new MyLinkedList<Integer>();
      list.insert(23);
-        System.out.print(list.size);
+        list.insert(27);
+        list.insert(2);
+        list.show();
+        System.out.println(list.size);
+        list.insertAt(2, 7);
+        list.show();
+        System.out.println(list.size);
+        list.deleteAt(2);
+        list.show();
+        System.out.println(list.size);
+        System.out.println(list.getHead());
+        System.out.print(list.getTail());
+
 //     list.insert(30);
 //     list.insert(3);
 //     list.insert(8);
